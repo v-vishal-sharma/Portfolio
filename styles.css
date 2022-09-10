@@ -1,0 +1,133 @@
+@font-face {
+    font-family: BlackRose;
+    src: url(./font/BlackRose-2Onld.ttf);
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    font-family: BlackRose;
+}
+ul{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+}
+h1{
+    font-size: 7rem;
+}
+h3{
+    font-size: 2rem;
+}
+/*
+=============== 
+Classes
+===============
+*/
+.bg-img{
+    object-fit: fill;
+    height: 100vh;
+    width: 100vw;
+    position: absolute;
+    top:0;
+    left:0;
+    z-index: -1;
+}
+.wheel-container{
+    z-index: 1;
+    position: fixed;
+}
+.nav-center{
+    width: 60vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 2rem auto;
+}
+.nav-header{
+    display: flex;
+}
+.logo{
+    height: 5rem;
+    border-radius: 50%;
+}
+.link-container{
+    height: auto !important;
+}
+.links{
+    display: flex;
+}
+.links a{
+    display: block;
+    margin: 0 1rem;
+    padding: 0;
+    letter-spacing: 0.1rem;
+    font-size: 1.6rem;
+    color: #A75502;
+}
+a:hover {
+    color: #007FFF;
+}
+.title{
+    width: 40vw;
+    margin-left: 23rem;
+    margin-top: 15rem;
+}
+.heading,.sub-heading{
+    margin:0 auto;
+    color: #A75502;
+}
+.sub-heading{
+    margin-top: 1rem;
+}
+.projectsBtn,.contactBtn{
+    margin:2rem auto;
+    font-size: 1.5rem;
+}
+.projectsBtn{
+    background: transparent;
+    border: 5px solid #A75502;
+    border-radius: 12px;
+    box-shadow: 5px 10px 18px #888888;
+    margin-right: 1.5rem;
+    padding: 0.5rem 0.7rem;
+    font-size: 1.3rem;
+    font-family: BlackRose;
+    transition: all 300ms;
+}
+.projectsBtn:hover{
+    background: #A75502;
+    color:white;
+}
+.contactBtn{
+    background: #007FFF;
+    border: 5px solid #007FFF;
+    color:white;
+    border-radius: 12px;
+    box-shadow: 5px 10px 18px #888888;
+    margin-right: 1.5rem;
+    padding: 0.5rem 0.7rem;
+    font-size: 1.3rem;
+    font-family: BlackRose;
+    transition: all 300ms;
+}
+.contactBtn:hover{
+    background: transparent;
+    color:black;
+}
+.pirate-img{
+    position: absolute;
+    right: 2rem;
+    top: 22rem;
+    object-fit: fill;
+}
+.pirateImg{
+    height: 40rem;
+}
+
+/*
+=============== 
+IDs
+===============
+*/
