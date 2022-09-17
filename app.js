@@ -4,3 +4,6 @@ window.onscroll = function() {
 
 document.getElementById('wheel').style.transform ='rotate(' + theta + 'rad)';
 }
+// Date
+const date = document.getElementById("date");
+date.innerHTML = new Date().getFullYear(); 
